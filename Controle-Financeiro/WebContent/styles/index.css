@@ -1,0 +1,236 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  font-family: 'Segoe UI', "arial", "sans-serif";
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #64585C;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header .opcoes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .opcoes a {
+  text-decoration: none;
+  color: white;
+  padding: 1.7% 0 1.7% 0;
+}
+
+.header p {
+  margin-left: 3%;
+  width: 0%;
+  color: white;
+}
+
+.conteudo-form {
+  margin-top: 3%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+}
+
+.cont-esq {
+  width: 50%;
+  text-align: center;
+}
+
+.cont-esq .img {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cont-esq .img img {
+  padding-top: 8%;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.cont-esq .principal {
+  margin: 0 auto;
+  padding: 10%;
+  font-size: 45px;
+  color: #1a1818;
+  font-weight: 400;
+}
+
+.cont-dir {
+  width: 50%;
+  display: block;
+}
+
+.opcao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  padding-top: 5%;
+}
+
+.opcao p {
+  border-bottom: 2px solid transparent;
+  font-size: 20px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.opcao p:hover {
+  border-bottom: 2px solid #549b7e;
+  cursor: pointer;
+}
+
+.formularios {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #b1afaf;
+  border-radius: 15px;
+  margin-top: 5%;
+}
+
+.formularios .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.formularios .form label {
+  margin-top: 10%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.formularios .form input {
+  padding: 10px;
+  margin-top: 5%;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  -webkit-box-shadow: 0px 2px 6px grey;
+          box-shadow: 0px 2px 6px grey;
+  border-style: none;
+}
+
+.formularios .form button {
+  width: 20%;
+  margin: 0 auto;
+  padding: 15px;
+  margin-bottom: 4%;
+  margin-top: 2%;
+  background-color: #568acc;
+  border-style: none;
+  border-radius: 2px;
+  color:white;
+}
+
+.formularios .form button:hover {
+  background-color: #446ea3;
+  cursor: pointer;
+  -webkit-transition: all 0.145s;
+  transition: all 0.145s;
+}
+
+.form-login {
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.form-login p {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 2%;
+}
+
+.form-login .last {
+  padding-bottom: 5%;
+}
+
+.form-cadastro {
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.form-cadastro label {
+  margin-top: 5% !important;
+  text-align: center;
+}
+
+.form-cadastro input {
+  margin-bottom: 3% !important;
+}
+
+.none {
+  display: none !important;
+}
+.visible{
+  display : inline;
+}
+
+.right {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.left {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.borda {
+  border-bottom: 2px solid #549b7e !important; 
+}
+.input-erro{
+  background-color:#f1131399 !important;
+  border-style:solid !important;
+  border-color:#850000bf !important;
+  border-radius:2px;
+  color:white;
+}
+.mensagem-erro{
+	text-align:center;
+	color:#f1131399;
+}
+/*# sourceMappingURL=index.css.map */

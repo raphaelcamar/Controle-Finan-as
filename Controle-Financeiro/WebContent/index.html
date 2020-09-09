@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>A ser discutido</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <p>Raphinanças</p>
+        <div class="opcoes">
+            <a href="#ComoFunciona">Como funciona?</a>
+            <a href="#Sobre">Sobre nós</a>
+            <a href="#Login">Login ou Cadastre-se!</a>
+        </div>
+
+    </div>
+    <div class="conteudo-form">
+        <div class="cont-esq">
+            <div class="img">
+                <img src="img/comptd.png" alt="">
+            </div>
+            <h1 class="principal">
+                Cuide de suas finanças
+                de um jeito fácil, rápido e prático!
+            </h1>
+        </div>
+        <div class="cont-dir">
+            <div class="formularios">
+                <div class="opcao">
+                    <p id="login">Login</p>
+                    <p id="cadastro">Cadastre-se</p>
+                </div>
+                <div class="form-login">
+                    <div class="form login">
+                       
+                            <p class="errosLogin"></p>
+                        
+                        <label for="cpf">CPF:</label>
+                        <input type="text" name="loginCPF" required="required" placeholder="EX: 999.999.999-99"
+                            id="cpf">
+                        <label for="senha">Senha:</label>
+                        <input type="password" name="loginSenha" required="required" placeholder="Digite sua senha"
+                            id="senha">
+                        <button id="logar">Entrar</button>
+                    </div>
+                    <p><a href="#">Esqueci minha senha</a></p>
+                    <p class="last"><a href="#">Esqueci meu CPF</a></p>
+                </div>
+                <div class="form-cadastro none">
+                    <div class="form">
+                        <label for="nomeCad">Nome:</label>
+                        <input type="text" name="nome" required="required" placeholder="Ex: Raphael" id="nomeCad">
+                        <div class="mensagem-erro"></div>
+                        <label for="sobrenomeCad">Sobrenome:</label>
+                        <input type="text" name="sobrenome" required="required" placeholder="Digite seu sobrenome"
+                            id="sobrenomeCad">
+                        <div class="mensagem-erro"></div>
+                        <label for="senhaCad">Senha:</label>
+                        <input type="password" name="senha" required="required" placeholder="Digite sua senha"
+                            id="senhaCad">
+                        <div class="mensagem-erro"></div>
+                        <label for="cpfCad">CPF:</label>
+                        <input type="text" name="cpf" required="required" placeholder="Ex: 000.111.222-33" id="cpfCad">
+                        <div class="mensagem-erro"></div>
+                        <label for="emailCad">Email:</label>
+                        <input type="email" name="email" required="required" placeholder="Exemplo@Exemplo@Ex.com"
+                            id="emailCad">
+                        <div class="mensagem-erro"></div>
+                        <button id="cadastrar">Cadastrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/anm-form.js"></script>
+    <script src="js/validaCadastro.js"></script>
+    <script src="js/Login.js"></script>
+</body>
+
+</html>
